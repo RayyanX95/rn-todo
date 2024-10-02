@@ -1,17 +1,12 @@
 import { StyleSheet } from "react-native";
 
 export const s = StyleSheet.create({
-  root: {
+  app: {
     flex: 1,
-    justifyContent: "center",
-    padding: 18
+    backgroundColor: "#F9F9F9",
+    padding: 15,
   },
-  workspace: {
-    height: 450,
-    alignItems: "center",
-    justifyContent: "space-evenly",
-  },
-  backgroundImg: {
-    height: "100%",
-  },
+  header: { flex: 1 },
+  body: { flex: 5 },
+  footer: { backgroundColor: "white", height: 70 },
 });
