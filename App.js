@@ -10,6 +10,14 @@ import Dialog from "react-native-dialog";
 import uuid from "react-native-uuid";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
+/**
+ * ?Create Android Build (APK or AAB): 
+ * *Use this command to build an .apk:
+  eas build --platform android --profile preview
+ * *Generate an AAB (Android App Bundle), which is recommended for Play Store uploads:
+  eas build --platform android --profile release
+ */
+
 let isFirstRender = true;
 let isLoadUpdate = false;
 
