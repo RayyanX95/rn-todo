@@ -32,6 +32,7 @@ export default function App() {
   }
 
   function deleteTodo(todoToDelete) {
+    console.log('todoToDelete', todoToDelete)
     Alert.alert("Delete todo", "Are you sure you want to delete this todo ?", [
       {
         text: "Delete",
